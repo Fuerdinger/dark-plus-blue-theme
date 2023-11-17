@@ -1,0 +1,13 @@
+# Blacklist everything by default
+*
+*/**
+
+# Whitelist
+!.vscode/launch.json
+!images/logo.png
+!themes/dark-plus-blue-color-theme.json
+!.vscodeignore
+!CHANGELOG.md
+!LICENSE.txt
+!package.json
+!README.md

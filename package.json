@@ -1,0 +1,48 @@
+{
+	"name": "dark-plus-blue-theme",
+	"displayName": "Dark+ Blue Theme",
+	"description": "A mix of \"Tomorrow Night Blue\" with Dark+, with a few tweaks.",
+	"version": "0.0.1",
+	"publisher": "daniel-fuerlinger",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.15.0"
+	},
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Fuerdinger/dark-plus-blue-theme"
+	},
+    "galleryBanner": {
+        "color": "#131c52",
+        "theme": "dark"
+    },
+	"categories": [
+		"Themes"
+	],
+    "keywords": [
+        "Dark+ Blue Theme",
+        "Dark Blue Theme",
+        "Dark+ Blue",
+        "Dark Blue"
+    ],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark+ Blue",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-plus-blue-color-theme.json"
+			}
+		]
+	},
+	"files": [
+		".vscode/launch.json",
+		"images/logo.png",
+		"themes/dark-plus-blue-color-theme.json",
+		".vscodeignore",
+		"CHANGELOG.md",
+		"LICENSE.txt",
+		"package.json",
+		"README.md"
+	]
+}
